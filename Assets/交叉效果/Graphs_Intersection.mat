@@ -7,37 +7,29 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Graphs_Shiled
-  m_Shader: {fileID: -6465566751694194690, guid: 08809c9d54a17c84cb6660b6fca97ba9, type: 3}
+  m_Name: Graphs_Intersection
+  m_Shader: {fileID: -6465566751694194690, guid: 0b3294222c8c02646b415d6a4e475f27, type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
+  m_CustomRenderQueue: 2995
   stringTagMap: {}
   disabledShaderPasses: []
   m_SavedProperties:
     serializedVersion: 3
-    m_TexEnvs:
-    - _MainTexture:
-        m_Texture: {fileID: 2800000, guid: 846b4f39a49ab824da78a51e575bd4bc, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
+    m_TexEnvs: []
     m_Ints: []
     m_Floats:
+    - _Amount: 1
     - _BUILTIN_QueueControl: 0
-    - _BUILTIN_QueueOffset: 0
-    - _FresnalPow: 2
-    - _PositionTime: 3
+    - _BUILTIN_QueueOffset: -5
+    - _InterserctionAmount: -1.78
     m_Colors:
-    - _BackColor: {r: 0, g: 0.1456737, b: 0.41568628, a: 0.59607846}
-    - _Color: {r: 0, g: 0, b: 0, a: 0}
-    - _FresnalColor: {r: 3.5648696, g: 0, b: 2.0848625, a: 0}
-    - _FrontColor: {r: 0, g: 0.4551496, b: 3.9999995, a: 1}
-    - _PositionAmount: {r: 1, g: 1, b: 1, a: 0}
+    - _Color: {r: 0.050943315, g: 0.8854091, b: 1, a: 0}
   m_BuildTextureStacks: []
---- !u!114 &3250520435834583983
+--- !u!114 &6293761929797535358
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
